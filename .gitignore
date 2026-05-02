@@ -1,0 +1,31 @@
+# LayoutLM weights (too large for GitHub; copy from release or train locally)
+model/*.safetensors
+model/pytorch_model.bin
+*.pt
+*.pth
+
+# Fine-tune checkpoints (multi‑GB)
+phase1_head_only/
+phase2_full_finetune/
+
+# Runtime output
+outputs/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+venv/
+.venv/
+env/
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Secrets
+.env
+.env.local

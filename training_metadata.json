@@ -1,0 +1,49 @@
+{
+  "created_at": "2026-04-29T15:33:02.357972Z",
+  "num_labels": 12,
+  "labels": [
+    "H1",
+    "H2",
+    "Paragraph",
+    "TOC",
+    "Reference",
+    "Figure",
+    "Table",
+    "List",
+    "Footer",
+    "Header",
+    "Link",
+    "Caption"
+  ],
+  "class_weights": [
+    1.7412854433059692,
+    0.6000375151634216,
+    0.40705373883247375,
+    4.554131031036377,
+    0.5766594409942627,
+    1.3091728687286377,
+    0.9867283701896667,
+    1.119397759437561,
+    1.4439927339553833,
+    1.4800926446914673,
+    1.8894798755645752,
+    1.2808493375778198
+  ],
+  "learning_rate": 2e-05,
+  "phase1_epochs": 3,
+  "phase2_epochs": 6,
+  "max_length": 128,
+  "image_size": 160,
+  "train_size": 6394,
+  "validation_size": 795,
+  "test_size": 811,
+  "test_metrics": {
+    "test_loss": 0.8064719438552856,
+    "test_accuracy": 0.8717632552404438,
+    "test_macro_f1": 0.8335676617431468,
+    "test_runtime": 11.9674,
+    "test_samples_per_second": 67.768,
+    "test_steps_per_second": 33.926,
+    "epoch": 3.0
+  }
+}

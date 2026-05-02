@@ -1,0 +1,5 @@
+{
+  "macro_f1_target": 0.85,
+  "observed_test_macro_f1": 0.8335676617431468,
+  "recommendation": "Performance is below the 0.85 macro-F1 target. Increase --num_samples, bump phase2 epochs, or reduce label noise."
+}

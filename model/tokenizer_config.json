@@ -1,0 +1,37 @@
+{
+  "add_prefix_space": true,
+  "apply_ocr": false,
+  "backend": "tokenizers",
+  "bos_token": "<s>",
+  "cls_token": "<s>",
+  "cls_token_box": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "eos_token": "</s>",
+  "errors": "replace",
+  "is_local": false,
+  "mask_token": "<mask>",
+  "model_max_length": 512,
+  "only_label_first_subword": true,
+  "pad_token": "<pad>",
+  "pad_token_box": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "pad_token_label": -100,
+  "processor_class": "LayoutLMv3Processor",
+  "sep_token": "</s>",
+  "sep_token_box": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "tokenizer_class": "LayoutLMv3Tokenizer",
+  "unk_token": "<unk>"
+}

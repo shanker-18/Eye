@@ -1,0 +1,30 @@
+{
+  "label_to_id": {
+    "H1": 0,
+    "H2": 1,
+    "Paragraph": 2,
+    "TOC": 3,
+    "Reference": 4,
+    "Figure": 5,
+    "Table": 6,
+    "List": 7,
+    "Footer": 8,
+    "Header": 9,
+    "Link": 10,
+    "Caption": 11
+  },
+  "id_to_label": {
+    "0": "H1",
+    "1": "H2",
+    "2": "Paragraph",
+    "3": "TOC",
+    "4": "Reference",
+    "5": "Figure",
+    "6": "Table",
+    "7": "List",
+    "8": "Footer",
+    "9": "Header",
+    "10": "Link",
+    "11": "Caption"
+  }
+}
